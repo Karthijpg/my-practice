@@ -1,29 +1,26 @@
 <!DOCTYPE HTML>
-<html lang="eng">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" value="width=device-width, initial scale=1.0">
-<title>practice</title>
-<style>
-        abbr {
+ <meta charset="UTF-8">
+ <meta name="viewport" value="width=device-width, initial scale=1.0">
+ <title>sample ecommerce website with a single product</title>
+ <style>  abbr {
             text-decoration: none;*/ 
+			 bdi {
+            color: red;
+        }
 </style>
 </head>
 <body>
-     <h2>JONI SOFTWARE SOLUTION</h2> 
-	 <p><mark>Software</mark> training institute in <del>coimbatore</del> <ins>chennai</ins></p> <!-- in this line i have added a mark and delet,inser tag. -->
-
-     <p>Welcome To <strong>Joni</strong> Software Solutions</P> <!--in this line i have added a strong tag used to define with strong importance --->
-	 <p><i>JONI Software Solutions</i> is a leading Software Training Institute in Chennai, 
-	 established in the year of 2010. We have a team of skilled 
-	 <dfn><abbr title="Emaphasied text is used to defined the important text"><em>professionals</em></abbr></dfn> in the 
-	 field of IT education & recruitment service.</p> <!--in this line i have added a definition element and it specifies a term that is going to be defined with the content--->
-	 <lable name ="value"> Experienced Trainers </lable>
-	 <meter id="Experienced Trainers" min="25" low="40" high="90" max="100" value="95"></meter> <!---The meter tags is used to a scalar measureement within a range--->
-	 <br> <lable name ="value"> Excellent Lab Facilities </lable>
-	 <meter id="Excellent Lab Facilities" min="25" low="40" high="90" max="100" value="80"></meter> <br>
-	 <lable name ="value"> Affordable Fees </lable>
-	 <meter id="Affordable Fees" min="25" low="40" high="99" max="100" value="98"></meter>
-	 <p>for more info click <a href="https://jonisoftwaresolutions.com/index.html" target="_blank">here</a> </p>
+ <h1>Welcome to book store</h1>
+ <h2><cite>Think Straight</cite></h2> <!---Book name is displays a italic font--->
+ <p>Think Straight by<def><abbr title="Darius Foroux is an author and productivity expert known for his practical advice on personal growth, habits, and decision-making. His work helps readers simplify life and achieve their goals efficiently.">  <strong>Darius Foroux</strong></abbr></def> in jan<sup> 2020</sup> a highly inspiring guide that helps you declutter your mind and become better at making decisions.<br> 
+ This book offers readers strategies to overcome overthinking, achieve mental clarity, and focus on what really matters in life. Ideal for<br>
+ people seeking to boost poductivity, reduce stress, and make better choices, Think Straight gives you the power to control your thoughts<br>
+ and live a more purposeful life.</p>
+ <p><label for="file">Last month sales ratio</label>
+  <progress id="file" max="100" value="75">75%</progress>
+  </p>
+  <p> buy now M.R.P.:<s>₹499</s> -72% ₹139<tt>only</tt></P> <!---using string tag--->
 </body>
 </html>
