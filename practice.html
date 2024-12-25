@@ -1,30 +1,40 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" value="width=device-width, initial scale=1.0">
- <title>sample ecommerce website with a single product</title>
- <style>  abbr {
-            text-decoration: none;*/ 
-			 
-		
-</style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial scale=1.0">
+<title>basic form</title>
 </head>
 <body>
-
- <h1>Welcome to book store</h1>
- <h2><cite>Think Straight</cite></h2> <!---Book name is displays a italic font--->
- <p>Think Straight by<def><abbr title="Darius Foroux is an author and productivity expert known for his practical advice on personal growth, habits, and decision-making. His work helps readers simplify life and achieve their goals efficiently.">  <strong>Darius Foroux</strong></abbr></def> in jan<sup> 2020</sup> a highly inspiring guide that helps you declutter your mind and become better at making decisions.<br> 
- This book offers readers strategies to overcome overthinking, achieve mental clarity, and focus on what really matters in life. Ideal for<br>
- people seeking to boost poductivity, reduce stress, and make better choices, Think Straight gives you the power to control your thoughts<br>
- and live a more purposeful life.</p>
- <p><label for="file">Last month sales ratio</label>
-  <progress id="file" max="100" value="75">75%</progress>
-  </p>
-  <p> buy now M.R.P.:<s>₹499</s> -72% ₹139<tt>only</tt></P> <!---using strike tag,teletype tag--->
-  <p>Buy in our store</p><br>
-  <address>2/123,abc street,<br>chettipalayam,<br>coimbatore 640201.</p>
-  <hr>
-  <ruby >直接思考<rp>(</rp><rt>(think straight)</rt><rp></rp></ruby>
+<h2>Welcome to joni software solution</h2>
+<form accept charset="UTF-8" action="https://api.web3forms.com/submit" method="POST" autocomplete="on">
+   <input type="hidden" name="access_key" value="16283947-1d21-4576-b2d7-38dbe26ce56b">
+   <label for="name">Name</label>
+   <input type="text" id="name" Name="name"><br><br>
+   <label for="email"> email</label>
+   <input type="email" id="email" name="email"><br><br>
+   <label for="message">message</label>
+   <input type="text' id="message" name="message"><br><br>
+   <label for="tel">Enter your tel number</label>
+   <input type="tel" id="tel" name="tel"  pattern="[0-9]{4}-[0-9]{2}-[0-9]{4}"value="9999-22-1234"><br><br>
+   <label>select gender</label><br>
+   <input type="radio" id="male" name="gender" value="male">
+   <label for="male">male</label>,<br>
+   <input type="radio" id="female" name="gender" value="female">
+   <label for="female">female</label><br><br>
+   
+   <label>Which course would you like to join?</label><br>
+   <input type="checkbox" id="Java & J2EE" name="Java & J2EE">
+   <label for="Java & J2EE">Java & J2EE</label><br>
+   <input type="checkbox" id="Python & Django" name="Python & Django">
+   <label for="Python & Django">Python & Django</label><br>
+   <input type="checkbox" id="Web Development" name="Web Development">
+   <label for="Web Development">Web Development</label><br>
+   <input type="checkbox" id="DotNet" name="DotNet">
+   <label for="DotNet">DotNet</label><br>
+   <input type="checkbox" id="Check the box to subscribe to WhatsApp updates" name="Check the box to subscribe to WhatsApp updates" required>
+   <label for="Check the box to subscribe to WhatsApp updates">Check the box to subscribe to WhatsApp updates</label><br><br>
+   <input type="submit" value="submit">
+   </form>
 </body>
 </html>
